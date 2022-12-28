@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a href="/" class="navbar-brand" >
+            product App
+        </a>
+    </nav>
+
+    <div class="container">
+        <div id="App" class="row pt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4> Añadir productos </h4>
+                    </div>
+
+                    <form id="product-forms" class="card-body">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Nombre del producto" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" step="0.01" id="price" placeholder="Precio" class="form-control" >
+                        </div>
+                        <div class="form-group">
+                            <input type="number" id="price" placeholder="Año del producto" class="form-control" value="2022" >
+                        </div>
+                        <input type="sumbit" value="Guardar" class="btn btn-primary" >
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-8">
+
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
